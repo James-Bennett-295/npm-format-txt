@@ -1,0 +1,26 @@
+{
+  "name": "format-txt",
+  "version": "1.0.0",
+  "description": "Terminal text formatting",
+  "main": "./index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/James-Bennett-295/npm-format-txt.git"
+  },
+  "keywords": [
+    "terminal",
+    "color",
+    "colour",
+    "format",
+    "formatting",
+    "text",
+    "ansi"
+  ],
+  "author": "James Bennett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/James-Bennett-295/npm-format-txt/issues"
+  },
+  "homepage": "https://github.com/James-Bennett-295/npm-format-txt#readme"
+}
