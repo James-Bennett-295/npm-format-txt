@@ -117,7 +117,7 @@ function formatTxt(txt) {
             } else {
                 activeFormats = activeFormats.concat(ansiFormats);
             };
-            out += "\x1b[" + activeFormats.join(';') + "m";
+            if (activeFormats.length > 0) out += "\x1b[" + activeFormats.join(';') + "m";
         };
     };
     out = out.replaceAll("\\<", '<').replaceAll("\\>", '>');

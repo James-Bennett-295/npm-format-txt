@@ -13,7 +13,7 @@ logln("<blue;ul>Underlined blue text</blue> Underlined text</ul>");
 logln("--\\> <yellow>Yellow text</yellow> \\<--");
 ```
 
-Every `>` and `<` which isn't being used for formatting must be prefixed with `\\`
+Every `>` or `<` which isn't being used for formatting must be prefixed with `\\`
 
 <b><u>Functions:</b></u><br>
 - `formatTxt(txt)`<br>
@@ -24,14 +24,14 @@ Formats then logs the supplied text.
 Formats then logs the supplied text with a newline.
 
 <b><u>Available formats</u></b>:<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <i>Text Formats:</i>
 - `bold`
 - `dim`
 - `italic`
 - `underline` / `ul`
 - `flashing` / `flash`
-- `strikethrough` / `st`<br>
+- `strikethrough` / `st`
+
 <i>Text Colours:</i>
 - `black`
 - `red`
@@ -40,7 +40,8 @@ Formats then logs the supplied text with a newline.
 - `blue`
 - `purple`
 - `cyan`
-- `white`<br>
+- `white`
+
 <i>Hight Intensity Text Colours:</i>
 - `blackH`
 - `redH`
@@ -49,7 +50,8 @@ Formats then logs the supplied text with a newline.
 - `blueH`
 - `purpleH`
 - `cyanH`
-- `whiteH`<br>
+- `whiteH`
+
 <i>Background colours:</i>
 - `blackB`
 - `redB`
@@ -58,7 +60,8 @@ Formats then logs the supplied text with a newline.
 - `blueB`
 - `purpleB`
 - `cyanB`
-- `whiteB`<br>
+- `whiteB`
+
 <i>High Intensity Background Colours:</i>
 - `blackHB`
 - `redHB`
